@@ -8,7 +8,7 @@
 
   ```bash
   git clone git@github.com:NeosMeetupHH/ToDoListBaseDistribution.git
-  cd ToDoList
+  cd ToDoListBaseDistribution
   composer install
   ```
 2. If you're using apache, create a virtualhost with a document root pointing to the /Web directory that was created during composer installation. Use the corresponding mechanisms for other web servers if needed.
