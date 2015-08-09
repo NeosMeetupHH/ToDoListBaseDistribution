@@ -1,18 +1,26 @@
 {
-    "name": "neosmeetuphh/todolist",
+    "name": "neosmeetuphh/todolist-base-distribution",
     "description": "This example will show how to use TypoScript 2.0 in a context outside of Neos.",
     "license": "LGPL-3.0+",
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
     },
+    "repositories": [
+      {
+        "url": "https://github.com/NeosMeetupHH/ToDoList",
+        "type": "vcs"
+      }
+    ],
     "require": {
         "typo3/flow": "3.0.0-rc1",
         "typo3/welcome": "3.0.0-rc1",
         "typo3/fluid": "@rc",
         "typo3/eel": "@rc",
         "doctrine/migrations": "@rc",
-        "typo3/typoscript": "@rc"
+        "typo3/typoscript": "@rc",
+
+        "neosmeetuphh/todolist": "@dev"
     },
     "require-dev": {
         "typo3/kickstart": "3.0.0-rc1",
