@@ -7,7 +7,7 @@
 1. Clone this repository and run `composer install`.
 
   ```bash
-  git clone git@github.com:NeosMeetupHH/ToDoListBaseDistribution.git
+  git clone https://github.com/NeosMeetupHH/ToDoListBaseDistribution
   cd ToDoListBaseDistribution
   composer install
   ```
