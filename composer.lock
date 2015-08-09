@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8537a6cfbe93d5e12cccd78527b6fc04",
+    "hash": "af42a30dec9b7d2dfd87c55f52a2b11e",
     "packages": [
         {
             "name": "composer/installers",
@@ -709,6 +709,37 @@
                 "orm"
             ],
             "time": "2014-12-16 13:45:01"
+        },
+        {
+            "name": "neosmeetuphh/todolist",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NeosMeetupHH/ToDoList.git",
+                "reference": "ec7fe1c85458ad25afde25f35e4e48acac1bfa46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NeosMeetupHH/ToDoList/zipball/ec7fe1c85458ad25afde25f35e4e48acac1bfa46",
+                "reference": "ec7fe1c85458ad25afde25f35e4e48acac1bfa46",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*",
+                "typo3/typoscript": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "NeosMeetupHH\\ToDoList": "Classes"
+                }
+            },
+            "description": "This example will show how to use TypoScript 2.0 in a context outside of Neos.",
+            "support": {
+                "source": "https://github.com/NeosMeetupHH/ToDoList/tree/master",
+                "issues": "https://github.com/NeosMeetupHH/ToDoList/issues"
+            },
+            "time": "2015-08-09 15:25:05"
         },
         {
             "name": "symfony/console",
@@ -2043,6 +2074,7 @@
         "typo3/eel": 5,
         "doctrine/migrations": 5,
         "typo3/typoscript": 5,
+        "neosmeetuphh/todolist": 20,
         "typo3/kickstart": 5,
         "typo3/buildessentials": 5,
         "flowpack/behat": 20
