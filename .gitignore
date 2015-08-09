@@ -1,7 +1,11 @@
 /Build/*.sh
 /Build/Behat/
 /Build/Surf/
-/Configuration/
+/Configuration/Development/
+/Configuration/Production/
+/Configuration/*.example
+/Configuration/README
+/Configuration/PackageStates.php
 /Data/
 /Packages/
 /Web/

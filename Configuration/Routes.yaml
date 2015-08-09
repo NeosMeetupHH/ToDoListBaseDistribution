@@ -1,0 +1,6 @@
+-
+  name: 'Neos Meetup HH - ToDoList Example'
+  uriPattern: '<ToDoListSubroutes>'
+  subRoutes:
+    ToDoListSubroutes:
+      package: NeosMeetupHH.ToDoList
