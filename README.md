@@ -46,7 +46,7 @@ Now, the application should be ready to run.
 
 ## Credits
 
-This demo application is powered by [Flow](https://github.com/Inkdpixels/Brics/releases).
+This demo application is powered by [Flow](https://github.com/neos/flow).
 
 The frontend part was done with [reduct](https://github.com/reduct) and [Brics](https://github.com/Inkdpixels/Brics).
 
